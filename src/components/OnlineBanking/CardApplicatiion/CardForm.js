@@ -182,7 +182,7 @@ function CardForm({form, cardType, completed, checkConfirm, chooseCardType, conf
                         <h2 className="confirm-title text-2xl md:text-4xl text-center leading-10 text-indigo-600">Submit Card Application</h2>
                         <p className="leading-8 md:leading-10 text-lg">
                             Your application for a transaction card will be reviewed. If you have confirmed and wish to continue with this application, kindly click on the "Complete" button.
-                            For further enquiries on this process, kindly contact the Customer Support Agent (support@eastdalefinance.com) for help.
+                            For further enquiries on this process, kindly contact the Customer Support Agent (support@eastdalemicrofinance.com) for help.
                         </p>
                             <div className="pt-5">
                                 <div className="flex justify-end">

@@ -10,7 +10,7 @@ function Contact() {
             <h1 className='my-10 text-3xl font-bold text-blue-900'>Warm Welcome to EastDale Finance Customer Support Team.</h1>
             <p className='my-10'>
             You can intaract with our customer support team in toll free number
-             +13869681001 they will help you 24/7. and also mail with support@snbcooperative.com
+             +13869681001 they will help you 24/7. and also mail with support@eastdalefinance.com
             </p>
 
             <div className='flex px-10 bg-slate-100 items-center justify-center my-10'>

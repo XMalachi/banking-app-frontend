@@ -105,7 +105,7 @@ function LoginForm() {
 
                 <div className="pt-8">
                     <div>
-                        <h2 className="card_title_cta">EastDale Finance</h2>
+                        <h2 className="card_title_cta">EastDale Microfinance</h2>
                         <div className="line"/>
                         <p className="text-sm text-teal-200">Kindly provide correct login details.</p>
                         

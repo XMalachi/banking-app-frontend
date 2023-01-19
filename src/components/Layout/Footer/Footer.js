@@ -72,7 +72,7 @@ function Footer() {
         <div className="pb-8 xl:grid xl:grid-cols-3 xl:gap-4">
           <div className="md:grid md:grid-cols-2 xl:gap-4 xl:col-span-4">
             <div className="leading-10">
-              <h1 className='text-xl lg:text-4xl mb-4 text-blue-300'>EastDale Finance</h1>
+              <h1 className='text-xl lg:text-4xl mb-4 text-blue-300'>EastDale Microfinance</h1>
               <div className='h-1 bg-blue-600 w-2/5'>
 
               </div>
@@ -118,7 +118,7 @@ function Footer() {
                 <div className='text-blue-50 my-2'>
                     <h3 className='text-md font-bold uppercase text-white'>Mail Us</h3>
                     <Link to='/contact' target="_blank" rel='noreferrer' className='no-underline text-blue-300 hover:text-blue-600'>
-                      support.eastdalefinance.com
+                      support.eastdalemicrofinance.com
                     </Link>
                 </div>
 
@@ -175,7 +175,7 @@ function Footer() {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-200 md:mt-0 md:order-1">
-            &copy; 2020 EastDale Finance. All rights reserved.
+            &copy; 2020 EastDale Microfinance. All rights reserved.
           </p>
         </div>
       </div>

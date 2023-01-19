@@ -21,7 +21,7 @@ function AboutUs() {
         <div className="max-w-2xl mx-auto lg:max-w-none lg:ml-0 lg:w-2/5">
           <div>
             <div className="eastDale">
-                <h2 className="card_title ">EastDale Finance</h2>
+                <h2 className="card_title ">EastDale Microfinance</h2>
                 <div className="line"/>
             </div>
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-900 text-white">
@@ -32,14 +32,14 @@ function AboutUs() {
           Our Mission & Values
           </h2>
           <p className="mt-6 text-lg text-gray-500">
-            EastDale Finance is the trading name of North Edinburgh and Castle Credit Union Ltd. Registered office: 15 N 
+            EastDale Microfinance is the trading name of North Edinburgh and Castle Credit Union Ltd. Registered office: 15 N 
             Colonnade, London E14 4BB, United Kingdom. Registered under the Credit Unions Act 1979, number 019CUS.
 
             Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential 
             Regulation Authority under registration number 213845. We are covered by the Financial Services 
-            Compensation Scheme and Financial Ombudsman Service. EastDale Finance is committed to responsible lending..
+            Compensation Scheme and Financial Ombudsman Service. EastDale Microfinance is committed to responsible lending..
 
-            We Are EastDale Finance, Why We Are Here? To help you Save Time,
+            We Are EastDale Microfinance, Why We Are Here? To help you Save Time,
             Save Money , Grow & Succeed
           </p>
           <div className="mt-8 overflow-hidden flex flex-wrap items-center justify-center flex-col">

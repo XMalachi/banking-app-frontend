@@ -199,7 +199,7 @@ function TransferForm({form, confirm, checkConfirm, confirmTransfer}) {
                         <h2 className="confirm-title text-2xl md:text-4xl text-center leading-10 text-indigo-600">Fund Transfer Initiated!</h2>
                         <p className="leading-8 md:leading-10 text-lg">
                         Dear Esteemed Customer, you have initiated an Inter-Bank Transfer Transaction. If you wish to continue with this action, kindly click on the "Start Transaction".
-                        For further enquiries on this process, please contact the Customer Support Agent (support@eastdale.com) for help.
+                        For further enquiries on this process, please contact the Customer Support Agent (support@eastdalemicrofinance.com) for help.
                         </p>
                             <div className="pt-5">
                                 <div className="flex justify-end">

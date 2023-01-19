@@ -10,7 +10,7 @@ function WhySave() {
             <BsFillDice2Fill className="h-6 w-6" aria-hidden="true" />
         </div>
         <h2 className='text-4xl my-10'>
-            Why Save With EastDale Finance
+            Why Save With EastDale Microfinance
         </h2>
 
         <p  className='text-lg my-10'>

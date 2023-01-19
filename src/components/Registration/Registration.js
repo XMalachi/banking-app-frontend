@@ -145,7 +145,7 @@ const Registration = () => {
 
                     <div className="pt-8">
                         <div>
-                            <h2 className="card_title_cta">EastDale Finance</h2>
+                            <h2 className="card_title_cta">EastDale Microfinance</h2>
                             <div className="line"/>
                             <p className="text-sm text-teal-200">Open a savings account online today with our easy application
                              processor. Check out what account type are available.</p>

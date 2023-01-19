@@ -21,7 +21,7 @@ function About() {
         <div className="max-w-2xl mx-auto lg:max-w-none lg:ml-0 lg:w-2/5">
           <div>
             <div className="eastDale">
-                <h2 className="card_title ">EastDale Finance</h2>
+                <h2 className="card_title ">EastDale Microfinance</h2>
                 <div className="line"/>
             </div>
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-900 text-white">
@@ -30,12 +30,12 @@ function About() {
           </div>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Deliver what our customers want every time.  We Know How Important Keeping Your Money Safe Is To You. 
-            That&apos;s why we exist. EastDale Finance
+            That&apos;s why we exist. EastDale Microfinance
           </h2>
           <p className="mt-6 text-lg text-gray-500">
-          EastDale Finance has grown from a credit union called Brent Shrine Credit Union which was first 
+          EastDale Microfinance has grown from a credit union called Brent Shrine Credit Union which was first 
           formed in 1979 to serve people living in the US or working in or outside the London Borough of Brent. We changed our 
-          name to EastDale Finance and extended our common bond nationally to encompass the British South Asian 
+          name to EastDale Microfinance and extended our common bond nationally to encompass the British South Asian 
           diaspora. Recently we have
            extended membership to supporters of the financial education charity: Financial Education and Awareness.
           </p>

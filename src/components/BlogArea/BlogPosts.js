@@ -12,6 +12,7 @@ function BlogPosts() {
                 <div>
                     <h3>Fed Chair Powell calls case &apos;strong&apos; for more interest rate hikes</h3>
                     <p className='text-sm'>
+
                         Citing robust growth and a generational low in unemployment, 
                         Federal Reserve Chairman Jerome Powell emphasized the central bank&apos;s 
                         commitment to further interest rates in a speech Wednesday. 
@@ -47,7 +48,7 @@ function BlogPosts() {
                         Wealth
                     </h2>
                     <p>
-                        EastDale Finance wealth management at its best.
+                        EastDale Microfinance wealth management at its best.
                     </p>
                 </div>
                 <div className=' blogItm text-blue-900  leading-relaxed cursor-pointer hover:bg-slate-600 hover:text-white'>

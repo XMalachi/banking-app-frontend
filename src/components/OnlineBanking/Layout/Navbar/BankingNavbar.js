@@ -43,7 +43,7 @@ function BankingNavbar() {
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
                 <div className="ml-20 xl:ml-4">
-                    <h1 className='text-blue-100 text-xl md:text-2xl'>Eastdale Finance</h1>
+                    <h1 className='text-blue-100 text-xl md:text-2xl'>Eastdale Microfinance</h1>
                 </div>
               
               

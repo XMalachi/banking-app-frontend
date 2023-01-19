@@ -11,7 +11,7 @@ function ContactBar() {
     return (
       <div className="contactbar text-center xl:text-left xl:flex xl:items-center xl:justify-between">
         <div className="flex-1 min-w-0">
-          <h2 className="h2  text-5xl font-bold  sm:text-5xl sm:truncate my-10">EastDale Finance</h2>
+          <h2 className="h2  text-5xl font-bold  sm:text-5xl sm:truncate my-10">EastDale Microfinance</h2>
         </div>
 
         <div className="flex items-center justify-around flex-wrap">
@@ -21,7 +21,7 @@ function ContactBar() {
                 </div>
                 <div className="text-left ml-4">
                     <p>Head Office</p>
-                    <p>+44 7451 278935</p>
+                    <p>+13869681001</p>
                 </div>
             </div>
             <div className="flex items-center text-lg ml-4 mb-6 sm:mb-2">
