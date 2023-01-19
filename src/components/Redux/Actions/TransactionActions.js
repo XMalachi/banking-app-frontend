@@ -13,7 +13,7 @@ import {
     
     import axios from 'axios'
     
-    const baseUrl = 'http://localhost:5000'
+    const baseUrl = process.env.REACT-APP-SERVERURL || 'http://localhost:5000'
     
     
     const getTransactionsActions = () => async(dispatch, getState) => {
