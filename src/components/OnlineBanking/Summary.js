@@ -1,5 +1,6 @@
 import React, { useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useNavigate } from 'react-router'
 import Loader from '../Loader'
 import TransactionsTable from '../OnlineBanking/Tables/TransactionsTable'
 import { getUserAccountDetailsAction } from '../Redux/Actions/UserActions'
@@ -7,10 +8,12 @@ import { getUserAccountDetailsAction } from '../Redux/Actions/UserActions'
  function Summary () {
 
   const  dispatch = useDispatch()
+  const navigate = useNavigate()
 
  const { loading, accountdetails} = useSelector(state => state.getUserDetails)
   console.log(accountdetails,  "the useraccountdetails from summary")
   useEffect(()=> {
+    navigate('/customer')
     dispatch(getUserAccountDetailsAction())
   }, [dispatch])
 
