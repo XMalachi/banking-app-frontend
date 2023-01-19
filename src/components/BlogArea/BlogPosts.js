@@ -14,9 +14,7 @@ function BlogPosts() {
                     <p className='text-sm'>
                         Citing robust growth and a generational low in unemployment, 
                         Federal Reserve Chairman Jerome Powell emphasized the central bank&apos;s 
-                        commitment to further interest rates in a speech Wednesday. Economic gains 
-                        are negating the need for crisis-era monetary policy, the Fed leader told a 
-                        European Central Bank forum.
+                        commitment to further interest rates in a speech Wednesday. 
                     </p>
                     <div className="date">21st Aug 2018</div>
                     <div className="tags">
@@ -31,8 +29,7 @@ function BlogPosts() {
                 <div>
                     <h3>There is a &apos;much bigger issue&apos; for the market than trade: Analyst</h3>
                     <p className='text-sm'>
-                        There is a “much bigger issue” for the market than concerns about trade, investing expert 
-                        Richard Bernstein told CNBC on Tuesday. In fact, over the last three to four months, almost every 
+                        There is a “much bigger issue” for the market than concerns about trade, investing expert.In fact, over the last three to four months, almost every 
                         sizeable market sell-off has come from pro-inflation policies out of Washington, D.C., the CEO and
                         chief investment officer of Richard Bernstein Advisors said.
                      </p>
