@@ -21,7 +21,10 @@ function ContactBar() {
                 </div>
                 <div className="text-left ml-4">
                     <p>Head Office</p>
-                    <p>+13869681001</p>
+                    <p>UK: +44 7451 278935</p>
+                    <p>USA: +13869681001</p>
+                    
+                    
                 </div>
             </div>
             <div className="flex items-center text-lg ml-4 mb-6 sm:mb-2">

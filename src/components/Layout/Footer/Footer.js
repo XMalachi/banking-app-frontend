@@ -77,7 +77,7 @@ function Footer() {
 
               </div>
               <p className='text-blue-50'>
-                Samson and Barkley Cooperatives is the trading name of Brent Shrine Credit Union Ltd. Authorised by 
+                EastDale Microfinance is the trading name of Brent Shrine Credit Union Ltd. Authorised by 
                 the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential
                 Regulation Authority. Reference number 213146. Member of Association of British Credit Unions Limited.
               </p>
