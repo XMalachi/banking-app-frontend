@@ -1,0 +1,74 @@
+.detailsHeader{
+    background-image: linear-gradient(to right, rgba(38, 38, 39, 0.781) 70%, rgba(38, 38, 39, 0.781) 30%),url(../../../Images/imgThree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.statlinks{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.statlinks > a{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color:rgba(20, 92, 160, 0.623) ;
+    margin-right: 10px;
+    transition: ease-in-out;
+}
+.statlinks > a:hover{
+    background-color: rgb(20, 93, 160);
+    letter-spacing: 1px;
+}
+
+/* details style */
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.detailHead{
+    margin-right: 30px;
+    text-align: left;
+}
+.detailData{
+    display: flex;
+    align-items: center;
+}
+
+.detailData > *{
+    margin-left: 10px;
+}
+
+@media (min-width: 1000px) {
+
+    .detailsHeader{
+        padding: 10px 0;
+    }
+    
+  
+    
+  }

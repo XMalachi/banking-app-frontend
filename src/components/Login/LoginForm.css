@@ -1,0 +1,25 @@
+.min-h{
+    background-image: linear-gradient(to right, rgba(38, 38, 39, 0.781) 70%, rgba(38, 38, 39, 0.781) 30%),url(../../Images/imgThree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.loginform{
+    background-color: transparent;
+    width: 50vw;
+}
+
+.login > *{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .loginform{
+        width: 90vw;
+    }
+    
+}
+  

@@ -1,0 +1,13 @@
+colour code
+.. midnight blue: rgb(20, 93, 160)
+.. dark blue rgb(12, 45, 72)
+.. plain blue rgb(46, 139, 192)
+.. baby blue rgb(177, 212, 224)
+
+
+i need 
+loan application table:  user accct number, amount, narration, period, sttatus, date.
+card enrollment table:user accct number, account type, expires, status
+
+transaction table
+fields: transaction id, user account, baneficiarybank and number, amount, swift/IBAN, decription date

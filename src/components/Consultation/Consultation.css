@@ -1,0 +1,15 @@
+.whySave{
+    background-image: linear-gradient(to right, rgba(38, 38, 39, 0.781) 70%, rgba(38, 38, 39, 0.781) 30%),url(../../Images/imgThree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: rgb(216, 231, 236);
+    height: 100%;
+}

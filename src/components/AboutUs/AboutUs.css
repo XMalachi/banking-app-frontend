@@ -1,0 +1,16 @@
+.eastDale{
+    /* display: inline-block; */
+    margin: 30px 0;
+}
+
+.line{
+    background-color: rgb(20, 93, 160);
+    height: 10px;
+    width: 30%;
+  }
+
+  .card_title {
+
+    color: rgb(20, 93, 160);
+    font-size: 2em;
+  }

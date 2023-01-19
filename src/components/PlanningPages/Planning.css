@@ -1,0 +1,22 @@
+.planningImage{
+    height: 100%;
+    width: 100%;
+}
+
+.planningImage > img{
+    height: 100%;
+    width: 100%;
+}
+@media (min-width: 1000px) {
+   
+    .planningImage{
+        height: 80%;
+        width: 80%;
+    }
+    
+    .planningImage > img{
+        height: 100%;
+        width: 100%;
+    }
+    
+}

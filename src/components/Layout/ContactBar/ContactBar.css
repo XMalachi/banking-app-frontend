@@ -1,0 +1,10 @@
+.contactbar {
+    background-color: rgba(226, 239, 243, 0.863);
+    padding: 10px 20px;
+}
+
+.contactbar .h2{
+    color: rgb(20, 93, 160);
+    padding: 30px;
+
+}

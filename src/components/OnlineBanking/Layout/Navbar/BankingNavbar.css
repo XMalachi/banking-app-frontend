@@ -1,0 +1,13 @@
+.homeIcon{
+    margin-left: 10px;
+}
+.home{
+    text-decoration: none;
+    color: rgb(177, 212, 224);
+    font-size: 1.8em;
+    
+}
+
+.home:hover{
+    color: rgb(143, 213, 236);
+}
