@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 function BankingSidebar() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
-    // const {store} = useSelector(state => state.loginStaff)
+
     
     useEffect(()=>{
         dispatch(getUserAction())

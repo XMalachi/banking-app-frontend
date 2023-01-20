@@ -11,10 +11,10 @@ function ContactBar() {
     return (
       <div className="contactbar text-center xl:text-left xl:flex xl:items-center xl:justify-between">
         <div className="flex-1 min-w-0">
-          <h2 className="h2  text-5xl font-bold  sm:text-5xl sm:truncate my-10">EastDale Microfinance</h2>
+          <h2 className="h2  text-6xl font-bold  sm:text-7xl  my-2">EastDale Microfinance</h2>
         </div>
 
-        <div className="flex items-center justify-around flex-wrap">
+        <div className="contactInfo sm:flex sm:items-center justify-around flex-wrap">
             <div className="flex items-center text-lg ml-4 mb-6 sm:mb-2">
                 <div className="text-4xl">
                 <BiPhoneCall />

@@ -9,7 +9,7 @@ function Testimonial() {
       <div className="bg-white pt-16 lg:py-24">
         <div className="pb-16 bg-blue-900 lg:pb-0 lg:z-10 lg:relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
-            <div className="relative lg:-my-8 bg-blue-100">
+            <div className="relative lg:-my-8 bg-blue-100 ">
               <div aria-hidden="true" className="absolute inset-x-0 top-0 h-1/2 bg-white hidden " />
               <div className="mx-auto max-w-md sm:max-w-3xl p-0  lg:h-full bg-blue-100">
                 <div className=" mb-6 aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full p-4  bg-blue-100">
@@ -19,7 +19,7 @@ function Testimonial() {
                         <div className="line"/>
                     </div>
                   
-                    <div>
+                    <div className='reasons'>
                         <div className='flex  items-center justify-center p-2 m-2'>
                             <div className='text-5xl px-4 text-blue-900'>
                                 <BsAlarm />

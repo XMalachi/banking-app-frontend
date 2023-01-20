@@ -6,8 +6,12 @@ import './InfoBar.css'
 function InfoBar() {
     return (
       <div className="infobar text-center lg:text-left lg:flex lg:items-center lg:justify-between">
-        <div className="flex-1 min-w-0">
-          <h2 className="flex items-center text-xl font-bold leading-7 text-white sm:text-lg sm:truncate "><AiOutlineWechat /> &nbsp;Get Free Financial Suggestion <Link to="/contact" className="decoration-none text-blue-600 hover:text-blue-200 ml-2">Here</Link>  </h2>
+        <div className="flex-1 min-w-0 ">
+          <h2 className="get flex items-center items center justify-center  text-xl font-bold leading-7 text-white sm:text-lg  "><AiOutlineWechat /> &nbsp;Get Free Financial Suggestion 
+            <Link to="/contact" className=" decoration-none  hover:text-blue-200 ml-2">
+              Here
+            </Link>  
+          </h2>
         </div>
 
           <button

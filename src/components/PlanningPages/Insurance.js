@@ -6,7 +6,7 @@ function Insurance() {
   return (
     <div>
         <div className='flex justify-center flex-col items-center'>
-              <h2 className='text-2xl md:text-4xl text-center text-blue-900 uppercase'>Insurance Planning</h2>
+              <h2 className='text-lg md:text-xl font-bold text-center text-blue-900 uppercase'>Insurance Planning</h2>
               <div className='h-1 bg-blue-900 w-36 mt-4'></div>
         </div>
         

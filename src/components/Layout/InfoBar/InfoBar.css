@@ -2,3 +2,16 @@
     background-color: rgb(12, 45, 72);
     padding: 10px 20px;
 }
+
+
+@media screen and (max-width: 390px) {
+    .get{
+        align-items: baseline;
+    }
+   .get a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: rgb(226, 244, 247);
+    /* background-color: ; */
+   }
+}
