@@ -7,21 +7,24 @@ function Contact() {
   return (
     <div className='lg:flex lg:justify-center lg:items-center md:px-20 md:py-4 px-10 py-4'>
         <div className='lg:w-1/2 w-full'>
-            <h1 className='my-10 text-3xl font-bold text-blue-900'>Warm Welcome to EastDale Finance Customer Support Team.</h1>
+            <h1 className='my-10 text-3xl font-bold text-blue-900'>Warm Welcome to EastDale Microfinance Customer Support Team.</h1>
             <p className='my-10'>
             You can intaract with our customer support team in toll free number
-             +13869681001 they will help you 24/7. and also mail with support@eastdalefinance.com
+             +13869681001 they will help you 24/7. and also mail with support@eastdalemicrofinance.com
             </p>
 
-            <div className='flex px-10 bg-slate-100 items-center justify-center my-10'>
+            <div className='md:flex px-10 bg-slate-100 md:items-center md:justify-center my-10'>
                 <img 
                     src='https://snbcooperatives.com/assets/landing/wp-content/uploads/2016/06/2-1.jpg'
                     alt='call center'
                     className='mr-10'
                 />
+
+
                 <div>
                     <p className='font-bold text-lg  text-blue-900'>Please Make a Call For Sales Enquiries</p>
-                    <p className='font-bold text-2xl  text-blue-900'>+13869681001</p>
+                    <p className='font-bold text-2xl  text-blue-900'>USA: +13869681001</p>
+                    <p className='font-bold text-2xl  text-blue-900'>UK: +44 7451 2789351</p>
                 </div>
             </div>
             <div>

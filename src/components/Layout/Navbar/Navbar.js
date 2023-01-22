@@ -9,6 +9,8 @@ import { Link } from 'react-router-dom'
 import Loader from "../../Loader"
 import { useOnHoverOutside } from "./useOnHoverOutside";
 import Items from "./Items";
+
+
 const navigation = [
   { name: 'Home', href: '/', current: false, subText: "Welcome To EastDale Finance" },
   { name: 'About Us', href: '/about', current: false, subText: "Know More About Us" },
@@ -17,11 +19,17 @@ const navigation = [
   { name: 'Contact', href: '/contact', current: false, subText: "Get Touch With Us" },
 ]
 
+
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+    return classes.filter(Boolean).join(' ')
 }
 
+
 function Navbar() {
+    const [openNav, setOpenNav] = useState(false)
+    const setOpenNavigation = () => {
+      setOpenNav(prev => !prev) 
+    }
     const  dispatch = useDispatch()
     const [running, setRunning]  = useState(true)
     useEffect(()=> {
@@ -37,12 +45,12 @@ function Navbar() {
     console.log(user,  "the logged in state")
 
     const dropdownRef = useRef(null); 
-  const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
+    const [isMenuDropDownOpen, setMenuDropDownOpen] = useState(false);
 
-  // Function to close dropdown
-  const closeHoverMenu = () => {
+    // Function to close dropdown
+    const closeHoverMenu = () => {
     setMenuDropDownOpen(false);
-  };
+    };
 
   useOnHoverOutside(dropdownRef, closeHoverMenu);
         
@@ -62,10 +70,10 @@ function Navbar() {
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
+                  {openNav ? (
+                    <XIcon onClick={setOpenNavigation} className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                    <MenuIcon onClick={setOpenNavigation} className="block h-6 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>
@@ -168,12 +176,12 @@ function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+          {openNav && 
+            <div className="lg:hidden px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  
+                  onClick={setOpenNavigation}
                   to={item.href}
                   target={item.name === "Online Banking"? "_blank" : "_self"}
                   rel='noreferrer'
@@ -187,7 +195,9 @@ function Navbar() {
                 </Link>
               ))}
             </div>
-          </Disclosure.Panel>
+          }
+           
+          
         </>
       )}
     

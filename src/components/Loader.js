@@ -1,6 +1,6 @@
 import React from "react";
 import GridLoader from "react-spinners/GridLoader";
-
+import "./Loader.css"
 
 
 function Loader() {
@@ -8,7 +8,7 @@ function Loader() {
 
   return (
 
-      <div className="fixed h-full w-full bg-gray-800 z-50 top-0 m-0">
+      <div className="loader fixed h-screen w-full bg-gray-800 z-50 m-0">
         <div className="flex justify-center items-center h-full w-full bg-gray-800 m-0">
           <GridLoader
             color="#36d7b7"
