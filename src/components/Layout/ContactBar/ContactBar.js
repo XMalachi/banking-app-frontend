@@ -3,6 +3,7 @@ import React from "react"
 import { BiPhoneCall } from "react-icons/bi";
 import { MdLocationOn } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
+import { BsFillDice6Fill } from "react-icons/bs";
 
 
 import './ContactBar.css'
@@ -11,7 +12,7 @@ function ContactBar() {
     return (
       <div className="contactbar text-center xl:text-left xl:flex xl:items-center xl:justify-between">
         <div className="flex-1 min-w-0">
-          <h2 className="h2  text-6xl font-bold  sm:text-7xl  my-2">EastDale Microfinance</h2>
+          <h2 className="h2 flex items-center justify-center xl:justify-start text-4xl font-bold  sm:text-5xl  my-2"><BsFillDice6Fill />&nbsp;EastDale Microfinance</h2>
         </div>
 
         <div className="contactInfo sm:flex sm:items-center justify-around flex-wrap">
