@@ -51,7 +51,7 @@ const getUserAction = () => async(dispatch, getState) => {
          }
 
         // console.log("staff created")
-        const {data} = await axios.get(`${baseUrl}/api/users/get-user`, config)
+        const {data} = await axios.get(`${baseUrl}/api/users/getuser`, config)
         
         console.log("user gotten",data.user)
         dispatch({
@@ -83,7 +83,7 @@ const getUserAccountDetailsAction = () => async(dispatch, getState) => {
          }
 
         // console.log("staff created")
-        const {data} = await axios.get(`${baseUrl}/api/users/get-account-details`, config)
+        const {data} = await axios.get(`${baseUrl}/api/users/getaccountdetails`, config)
         
         console.log("user gotten",data.user)
         dispatch({

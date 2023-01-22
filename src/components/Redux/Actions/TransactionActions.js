@@ -33,7 +33,7 @@ import {
              }
     
             // console.log("staff created")
-            const {data} = await axios.get(`${baseUrl}/api/transactions/get-user-transactions`, config)
+            const {data} = await axios.get(`${baseUrl}/api/transactions/getusertransactions`, config)
             
             console.log("user gotten from transactions actions",data.transaction)
             dispatch({
