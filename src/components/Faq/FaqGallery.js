@@ -20,7 +20,7 @@ function FaqGallery() {
             <img src={two} alt='two' />
             <div className="overlay">
                 <div className="text">
-                    EastDale Finance Makes it easier.
+                    EastDale Microfinance Makes it easier.
                 </div>
             </div>
         </div>

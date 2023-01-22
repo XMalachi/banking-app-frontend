@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+
 
 :root {
   --color: #3c3163;
@@ -6,9 +6,8 @@
 }
 
 .blogPosts {
-  margin: 40px 0;
-  min-height: 100vh;
-  font-family: 'Open Sans';
+  padding: 10em 0;
+
   box-sizing: border-box;
   background: #fafafa;
   overflow: hidden;
@@ -27,9 +26,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
-  padding: 2rem;
+
+  /* padding: 2rem; */
   margin: 0 auto;
-  width: 70%;
+  /* width: 70%; */
 
 }
 
@@ -37,9 +37,9 @@ a {
 
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 30em;
+  height: 20em;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.8em;
   color: white;
   border-radius: 1em;
   padding: 1em;
@@ -64,11 +64,13 @@ a {
 .card h3 {
   margin: 0;
   font-size: .9em;
-  line-height: 1.2em;
+  line-height: 1em;
+  font-weight: bolder;
+  color: var(--color);
 }
 
 .card p {
-  font-size: 0.9em;
+  font-size: 0.7em;
 
   margin-top: 0.5em;
   line-height: 2em;
@@ -210,9 +212,10 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-  .cards-wrapper {
-    padding: 4rem 2rem;
-    /* grid-gap: 2rem; */
+
+  .card-grid-space{
+
+    padding: 0 2rem;
   }
   .card {
     max-width: calc(100vw - 4rem);
