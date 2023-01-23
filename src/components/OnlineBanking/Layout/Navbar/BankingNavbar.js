@@ -2,14 +2,17 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon} from '@heroicons/react/outline'
-import {BiHomeAlt} from "react-icons/bi"
-import {FaUserCircle} from "react-icons/fa"
 import "./BankingNavbar.css"
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router'
 import Swal from 'sweetalert2'
 import {  logout } from '../../../Redux/Actions/UserActions'
+
+// icons
+import { BsFillDice6Fill } from "react-icons/bs";
+import { BellIcon} from '@heroicons/react/outline'
+import {BiHomeAlt} from "react-icons/bi"
+import {FaUserCircle} from "react-icons/fa"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
