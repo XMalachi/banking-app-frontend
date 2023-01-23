@@ -42,8 +42,8 @@ function BankingNavbar() {
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
-                <div className="ml-20 xl:ml-4">
-                    <h1 className='text-blue-100 text-xl md:text-2xl'>Eastdale Microfinance</h1>
+                <div className="ml-20">
+                    <h1 className='flex items-center justify-start text-blue-100 text-md md:text-2xl'><BsFillDice6Fill />&nbsp;Eastdale Microfinance</h1>
                 </div>
               
               
@@ -55,7 +55,7 @@ function BankingNavbar() {
                   className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
                   <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  <BellIcon className="sm:h-6 sm:w-6 h-4 w-4" aria-hidden="true" />
                 </button>
 
                 {/* Profile dropdown */}
@@ -65,7 +65,7 @@ function BankingNavbar() {
                       <span className="sr-only">Open user menu</span>
                       
                       <span>
-                        <FaUserCircle  className="h-8 w-8 rounded-full text-blue-100"/>
+                        <FaUserCircle  className="sm:h-6 sm:w-6 h-4 w-4 rounded-full text-blue-100"/>
                       </span>
                       
                       
@@ -107,7 +107,7 @@ function BankingNavbar() {
                 </Menu>
                 <div className='homeIcon'>
                 <Link className='home' to='/'>
-                    <BiHomeAlt />
+                    <BiHomeAlt className='sm:h-6 sm:w-6 h-4 w-4' />
                 </Link>
                     
                 </div>

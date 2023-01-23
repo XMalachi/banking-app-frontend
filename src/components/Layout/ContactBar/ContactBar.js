@@ -12,7 +12,7 @@ function ContactBar() {
     return (
       <div className="contactbar text-center xl:text-left xl:flex xl:items-center xl:justify-between">
         <div className="flex-1 min-w-0">
-          <h2 className="h2 flex items-center justify-center xl:justify-start text-4xl font-bold  sm:text-5xl  my-2"><BsFillDice6Fill />&nbsp;EastDale Microfinance</h2>
+          <h2 className="h2 flex items-center justify-start text-4xl font-bold  sm:text-5xl  my-2"><BsFillDice6Fill />&nbsp;EastDale Microfinance</h2>
         </div>
 
         <div className="contactInfo sm:flex sm:items-center justify-around flex-wrap">
