@@ -142,7 +142,7 @@ a {
 /* blogItm */
 .blogItemGrp{
   /* height: 20em; */
-  width: 26em;
+  width: 24em;
   
   padding: .5em;
   
@@ -229,5 +229,11 @@ a {
   }
   .info h1 {
     margin: 0;
+  }
+  .blogItemGrp{
+    /* height: 20em; */
+    width: 22em;
+    
+    
   }
 }

@@ -13,7 +13,7 @@ function Investment() {
         <div className='lg:grid lg:grid-cols-3 lg:justify-between'>
             <div className='planningImage bg-slate-600 mt-10 w-full lg:col-span-2'>
               <img 
-                src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+                src='https://images.unsplash.com/photo-1633158829875-e5316a358c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQwfHxiYW5raW5nJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'
                 alt='tax planning'
                 className='w-full h-full'
               />

@@ -2,12 +2,12 @@ import React from 'react'
 import ButtonP from '../Button/ButtonP'
 import './Consultation.css'
 
-import { BsFillDice2Fill } from "react-icons/bs";
+import { BsGrid3X3GapFill } from "react-icons/bs";
 function WhySave() {
   return (
     <div className='whySave'>
         <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-900 text-white">
-            <BsFillDice2Fill className="h-6 w-6" aria-hidden="true" />
+            <BsGrid3X3GapFill className="h-6 w-6" aria-hidden="true" />
         </div>
         <h2 className='text-4xl my-10'>
             Why Save With EastDale Microfinance

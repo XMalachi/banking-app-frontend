@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 
-import { BsFillDice2Fill } from "react-icons/bs";
+import { BsGrid3X3GapFill } from "react-icons/bs";
 import { FcBarChart } from "react-icons/fc";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ function AboutUs() {
                 <div className="line"/>
             </div>
             <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-900 text-white">
-              <BsFillDice2Fill className="h-6 w-6" aria-hidden="true" />
+              <BsGrid3X3GapFill className="h-6 w-6" aria-hidden="true" />
             </div>
           </div>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">

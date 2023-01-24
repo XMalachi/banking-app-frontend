@@ -13,7 +13,7 @@ function Commodities() {
         <div className='lg:grid lg:grid-cols-3 lg:justify-between'>
             <div className='planningImage bg-slate-600 mt-10 w-full lg:col-span-2'>
               <img 
-                src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+                src='https://images.unsplash.com/photo-1644952354935-0bc0d25a9996?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80'
                 alt='tax planning'
                 className='w-full h-full'
               />

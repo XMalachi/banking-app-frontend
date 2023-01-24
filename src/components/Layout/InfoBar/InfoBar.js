@@ -5,7 +5,7 @@ import './InfoBar.css'
 /* This example requires Tailwind CSS v2.0+ */
 function InfoBar() {
     return (
-      <div className="infobar text-center md:text-left lg:text-left lg:flex lg:items-center lg:justify-between">
+      <div className="infobar flex justify-center sm:justify-between flex-col sm:flex-row">
         <div className=" min-w-0 ">
           <h2 className="get flex items-center justify-center   text-xl font-bold leading-7 text-white sm:text-lg  "><AiOutlineWechat /> &nbsp;Get Free Financial Suggestion 
             <Link to="/contact" className=" decoration-none  hover:text-blue-200 ml-2">

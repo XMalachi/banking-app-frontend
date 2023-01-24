@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Swal from 'sweetalert2'
-
+import { BsGrid3X3GapFill } from "react-icons/bs";
 const navigation = {
   
   company: [
@@ -72,7 +72,7 @@ function Footer() {
         <div className="pb-8 xl:grid xl:grid-cols-3 xl:gap-4">
           <div className="md:grid md:grid-cols-2 xl:gap-4 xl:col-span-4">
             <div className="leading-10">
-              <h1 className='text-xl lg:text-4xl mb-4 text-blue-300'>EastDale Microfinance</h1>
+            <h2 className="h2 m-0 text-blue-200 flex items-center justify-start text-xl font-bold  sm:text-2xl  my-2"><BsGrid3X3GapFill />&nbsp;EastDale Microfinance</h2>
               <div className='h-1 bg-blue-600 w-2/5'>
 
               </div>
@@ -84,7 +84,7 @@ function Footer() {
             </div>
             <div className="md:flex md:flex-col items-center ">
               <div className='my-10 lg:my-0'>
-                <h3 className="text-xl lg:text-4xl mb-4 text-blue-300">Useful Link</h3>
+                <h3 className="text-xl text-bolder lg:text-4xl mb-4 text-blue-300">Useful Link</h3>
                 <div className='h-1 bg-blue-600 w-2/5'>
 
                 </div>
@@ -103,7 +103,7 @@ function Footer() {
           </div>
           <div className="mt-12 xl:mt-0">
             <div className="leading-6">
-                <h1 className='text-lg lg:text-2xl mb-4 text-blue-300'>Contact Us</h1>
+                <h1 className='text-lg text-bolder lg:text-2xl mb-4 text-blue-300'>Contact Us</h1>
                 <div className='h-1 bg-blue-600 w-2/5'>
 
                 </div>
