@@ -11,7 +11,7 @@ function Loader() {
       <div className="loader fixed h-screen w-full bg-gray-800 z-50 m-0">
         <div className="flex justify-center items-center h-full w-full bg-gray-800 m-0">
           <GridLoader
-            color="#0c2853b9"
+            color="#41659e"
             size={30}
             speedMultiplier={1}
           />
