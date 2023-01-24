@@ -212,14 +212,12 @@ a {
   .card h3 {
    
     font-size: .7em;
-    line-height: .8em;
-    font-weight: bolder;
-    color: var(--color);
+    line-height: 1em;
   }
   
   .card p {
     font-size: 0.6em;
-    line-height: 1.4em;
+    line-height: 1.7em;
   }
 
 }
