@@ -114,7 +114,7 @@ const getConsultation = (e)=>{
                     autoComplete="type"
                     className=" p-2 border-b-2  border-blue-900  focus:border-blue-900 block w-full sm:text-md "
                   >
-                    <option>---Choose Type oof Request---</option>
+                    <option>---Choose Type of Request---</option>
                     <option>Private Banking</option>
                     <option>Free Consultations</option>
                     <option>Others</option>
